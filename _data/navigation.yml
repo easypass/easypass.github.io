@@ -21,18 +21,25 @@ foo:
 # main links
 main:
   - title: "Quick-Start Guide"
+    # url은 폴더 _docs 안에 있는 페이지 01-quick-start-guide.md에 정의된 permalink와 연결된다.
     url: /docs/quick-start-guide/
   - title: "About"
+    # url은 폴더 _pages 안에 있는 페이지 about.md에 정의된 permalink와 연결된다.
     url: /about/
   - title: "Archive"
-    url: /year-archive/ #url은 _pages폴더안에 있는 페이지의 permalink와 연결된다.
-  - title: "Sample Collections"
+    # url은 폴더 _pages 안에 있는 페이지 year-archive.html에 정의된 permalink와 연결된다.
+    url: /year-archive/ 
+  - title: "Collections"
+    # url은 폴더 _pages 안에 있는 페이지 collection-archive.html에 정의된 permalink와 연결된다.
     url: /collection-archive/
-  - title: "tag"
+  - title: "Tag"
+    # url은 폴더 _pages 안에 있는 페이지 tag-archive.html에 정의된 permalink와 연결된다.
     url: /tags/
   - title: "Category"
+    # url은 폴더 _pages 안에 있는 페이지 category-archive.html에 정의된 permalink와 연결된다.
     url: /categories/
   - title: "Terms &amp; Privacy Policy"
+    # url은 폴더 _pages 안에 있는 페이지 terms.md에 정의된 permalink와 연결된다.
     url: /terms/
 
 
