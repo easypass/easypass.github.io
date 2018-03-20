@@ -24,10 +24,14 @@ main:
     url: /docs/quick-start-guide/
   - title: "About"
     url: /about/
-  - title: "Sample Posts"
-    url: /year-archive/
+  - title: "Archive"
+    url: /year-archive/ #url은 _pages폴더안에 있는 페이지의 permalink와 연결된다.
   - title: "Sample Collections"
     url: /collection-archive/
+  - title: "tag"
+    url: /tags/
+  - title: "Category"
+    url: /categories/
   - title: "Terms &amp; Privacy Policy"
     url: /terms/
 
