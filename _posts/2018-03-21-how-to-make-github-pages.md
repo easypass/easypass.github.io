@@ -1,16 +1,19 @@
 ---
-title:  "How to make github pages"
+title: "How to make github post"
 search: true
 categories: 
   - github
-  - pages
+  - markdown
 last_modified_at: 2018-03-21T08:06:00-05:00
 ---
 
- 
- 
- 구글에서 잠시 검색하는 시간을 거쳐 Sunbros님께서 올려주신 KoPub 돋움체의 주소를 가져와보았습니다.
+[Mike Lee](https://leemun1.github.io/ "Mike Lee")님의 [포스트](https://leemun1.github.io/webdev/2017/06/23/jekyll-github-pages-4/ "포스트")를 참고함.
 
+
+# 1. 한글 웹폰트 적용하기
+
+KoPub 돋움체의 주소를 가져와 적용하기
+<pre><code>
 /* KoPub Dotum */
 @font-face {
   font-family: 'KoPub Dotum';
@@ -39,16 +42,19 @@ last_modified_at: 2018-03-21T08:06:00-05:00
        url(//cdn.jsdelivr.net/font-kopub/1.0/KoPubDotum-Bold.woff) format('woff'),
        url(//cdn.jsdelivr.net/font-kopub/1.0/KoPubDotum-Bold.ttf) format('truetype');
 }
-출처: 한글 웹폰트를 사용하기 위한 기록 - Sunbros
+</code></pre>
 
-적용 방법은 매우 간단합니다. 위 코드를 CSS파일 내에 넣어주신 후 (세가지 폰트 굵기 중 한가지만 선택하는것도 가능) font-family 속성에 폰트이름을 써주시면 됩니다. 예를들어 body 태그에 폰트를 지정하고 싶다면 다음처럼 코드를 작성해주시면 됩니다:
 
+적용 방법은 매우 간단하다. 위 코드를 CSS파일 내에 넣어준 후 (세가지 폰트 굵기 중 한가지만 선택하는것도 가능) font-family 속성에 폰트 이름을 써주시면 된다. 예를 들어 body 태그에 폰트를 지정하고 싶다면 다음처럼 코드를 작성하면 된다:
+<pre><code>    
 body {
     font-family: "PT Sans", Helvetica, Arial, "KoPub Dotum", sans-serif;
 }
-제 경우 영어와 한글에 각각 다른 폰트를 적용시키고 싶었기 때문에 font-family 속성 내에서 영문폰트를 먼저 지정하여 영문폰트에 우선순위를 주고 한글폰트는 뒤쪽으로 배치하였습니다. 또한 PT Sans 나 KoPub Dotum 과 같이 폰트 이름에 공백이 포함되어 있는경우 쌍따옴표로 감싸주어야 합니다. 자세한 방법은 아래 링크를 참조하였습니다.
+</code></pre>
 
-출처: font-family 지정하는 법 - 웹사이트지식창고
+
+영어와 한글에 각각 다른 폰트를 적용시키고 싶으면 font-family 속성 내에서 영문 폰트를 먼저 지정하여 영문 폰트에 우선순위를 주고 한글 폰트는 뒤쪽으로 배치한다. 또한 PT Sans 나 KoPub Dotum 과 같이 폰트 이름에 공백이 포함되어 있는 경우 쌍따옴표로 감싸주어야 한다. 
+
 
 이미지 및 다운로드 가능한 파일 추가하기
 포스팅 내에 이미지를 추가하려면 마크다운파일 내에 다음 코드를 적어주시면 됩니다.
