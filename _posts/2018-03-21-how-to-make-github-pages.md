@@ -1,4 +1,11 @@
-
+---
+title:  "How to make github pages"
+search: true
+categories: 
+  - github
+  - pages
+last_modified_at: 2018-03-21T08:06:00-05:00
+---
 
  
  
